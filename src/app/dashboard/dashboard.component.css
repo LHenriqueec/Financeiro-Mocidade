@@ -1,0 +1,110 @@
+#table-receita {
+    margin-top: 15px;
+}
+#table-receita th, #table-despesa th {
+    text-align: center;
+}
+#table-receita tr, #table-despesa tr {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+#table-receita thead, #table-despesa thead {
+    color: #fff;
+    font-size: 12px;
+}
+#table-receita thead {
+    background-color: #5cb85c;
+}
+#table-despesa thead {
+    background-color: #d9534f;
+}
+#table-receita tr {
+    color: #5cb85c;
+}
+#table-receita tr:hover, .panel-success tr:hover {
+    background-color: #5cb85c;
+    color: #fff;
+}
+#table-despesa tr{
+    color: #d9534f
+}
+#table-despesa tr:hover, .panel-danger tr:hover {
+    background-color: #d9524f;
+    color: #fff;
+}
+#tables {
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+}
+div#tables-info .col-md-6 {
+    padding: 15px 5px 0px 0px;
+}
+div#tables-info tr {
+    height: 28px;
+}
+div#tables-info {
+    font-size: 12px;
+}
+#teste {
+    position: absolute;
+    bottom: 0px;
+}
+#teste li {
+    text-align: center;
+    padding: 0px;
+}
+#teste li:hover, #teste a:active #teste li {
+    background-color: #262e3e2b;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* .t_expense, .t_revenue {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.t_expense {
+    background-color: #d9534f;
+}
+.t_revenue {
+    background-color: #5cb85c;
+}
+.t_revenue_value,p.t_expense_value {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+.t_revenue_value {
+    color: #5cb85c;
+  
+}
+.t_expense_value {
+    color: #d9534f;
+} */
+div.form {
+    background-color: #fff;
+}
+.panel-danger .panel-heading {
+    background-color: #d9524f;
+    color: #fff;
+}
+.panel-danger .panel-body {
+    background-color: #ffcccc52;
+    color: #d9524f;
+}
+.panel-success .panel-heading {
+    background-color: #5cb85c;
+    color: #fff;
+}
+.panel-success .panel-body {
+    background-color: #33cc0014;
+    color: #5cb85c;
+}
+.select-month {
+    width: 120px;
+}
